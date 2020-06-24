@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
 
 namespace InterfaceServices.Entities
@@ -14,7 +13,6 @@ namespace InterfaceServices.Entities
             Date = date;
             Value = value;
         }
-
         public override string ToString()
         {
             return Date.ToString("dd/MM/yyyy")
